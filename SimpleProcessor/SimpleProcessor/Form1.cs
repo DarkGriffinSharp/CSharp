@@ -150,6 +150,7 @@ namespace SimpleProcessor
             {
                 return;
             }
+            refreshTimer.Start();
         }
     }
 }
