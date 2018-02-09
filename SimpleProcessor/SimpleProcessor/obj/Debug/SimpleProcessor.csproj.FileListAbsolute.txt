@@ -18,3 +18,4 @@ C:\Users\Mr X\source\repos\SimpleProcessor\SimpleProcessor\bin\Debug\SimpleProce
 C:\Users\Mr X\source\repos\SimpleProcessor\SimpleProcessor\obj\Debug\SimpleProcessor.Properties.Resources.resources
 C:\Users\Mr X\source\repos\SimpleProcessor\SimpleProcessor\obj\Debug\SimpleProcessor.exe
 C:\Users\Mr X\source\repos\SimpleProcessor\SimpleProcessor\obj\Debug\SimpleProcessor.pdb
+C:\Users\Mr X\source\repos\SimpleProcessor\SimpleProcessor\obj\Debug\SimpleProcessor.Form2.resources

@@ -2,6 +2,8 @@
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
+using System.Management;
+using System.Net;
 
 namespace SimpleProcessor
 {
@@ -151,6 +153,18 @@ namespace SimpleProcessor
                 return;
             }
             refreshTimer.Start();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

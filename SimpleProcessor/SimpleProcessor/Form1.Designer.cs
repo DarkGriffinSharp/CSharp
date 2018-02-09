@@ -48,7 +48,7 @@
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.Location = new System.Drawing.Point(0, 0);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(208, 304);
+            this.listBox1.Size = new System.Drawing.Size(208, 334);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             this.listBox1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox1_MouseDoubleClick);
@@ -63,7 +63,7 @@
             this.refreshButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.refreshButton.Location = new System.Drawing.Point(208, 0);
             this.refreshButton.Name = "refreshButton";
-            this.refreshButton.Size = new System.Drawing.Size(403, 43);
+            this.refreshButton.Size = new System.Drawing.Size(363, 43);
             this.refreshButton.TabIndex = 1;
             this.refreshButton.Text = "Refresh";
             this.refreshButton.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.textBox1.Location = new System.Drawing.Point(208, 43);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(403, 23);
+            this.textBox1.Size = new System.Drawing.Size(363, 23);
             this.textBox1.TabIndex = 3;
             this.textBox1.DoubleClick += new System.EventHandler(this.textBox1_Click);
             // 
@@ -89,7 +89,7 @@
             this.findButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.findButton.Location = new System.Drawing.Point(208, 66);
             this.findButton.Name = "findButton";
-            this.findButton.Size = new System.Drawing.Size(403, 43);
+            this.findButton.Size = new System.Drawing.Size(363, 43);
             this.findButton.TabIndex = 4;
             this.findButton.Text = "Find";
             this.findButton.UseVisualStyleBackColor = true;
@@ -108,7 +108,7 @@
             this.starterButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.starterButton.Location = new System.Drawing.Point(208, 109);
             this.starterButton.Name = "starterButton";
-            this.starterButton.Size = new System.Drawing.Size(403, 43);
+            this.starterButton.Size = new System.Drawing.Size(363, 43);
             this.starterButton.TabIndex = 5;
             this.starterButton.Text = "Starter";
             this.starterButton.UseVisualStyleBackColor = true;
@@ -121,26 +121,26 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(208, 152);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(403, 28);
+            this.comboBox1.Size = new System.Drawing.Size(363, 28);
             this.comboBox1.TabIndex = 6;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::SimpleProcessor.Properties.Resources.Adsız;
             this.pictureBox1.Location = new System.Drawing.Point(208, 180);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(403, 124);
+            this.pictureBox1.Size = new System.Drawing.Size(365, 155);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.ClientSize = new System.Drawing.Size(611, 304);
+            this.ClientSize = new System.Drawing.Size(571, 334);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.starterButton);
@@ -153,6 +153,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "DarkGriffin - Processor";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
