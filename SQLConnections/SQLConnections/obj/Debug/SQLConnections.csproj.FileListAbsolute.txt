@@ -1,0 +1,9 @@
+c:\users\metin.taslik\documents\visual studio 2015\Projects\SQLConnections\SQLConnections\bin\Debug\SQLConnections.exe.config
+c:\users\metin.taslik\documents\visual studio 2015\Projects\SQLConnections\SQLConnections\bin\Debug\SQLConnections.exe
+c:\users\metin.taslik\documents\visual studio 2015\Projects\SQLConnections\SQLConnections\bin\Debug\SQLConnections.pdb
+c:\users\metin.taslik\documents\visual studio 2015\Projects\SQLConnections\SQLConnections\obj\Debug\SQLConnections.csprojResolveAssemblyReference.cache
+c:\users\metin.taslik\documents\visual studio 2015\Projects\SQLConnections\SQLConnections\obj\Debug\SQLConnections.exe
+c:\users\metin.taslik\documents\visual studio 2015\Projects\SQLConnections\SQLConnections\obj\Debug\SQLConnections.pdb
+D:\SPro\sources\SQLConnections\SQLConnections\bin\Debug\SQLConnections.exe.config
+D:\SPro\sources\SQLConnections\SQLConnections\obj\Debug\SQLConnections.exe
+D:\SPro\sources\SQLConnections\SQLConnections\obj\Debug\SQLConnections.pdb
