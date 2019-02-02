@@ -1,0 +1,22 @@
+D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\RSSFeed.exe.config
+D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\RSSFeed.exe
+D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\RSSFeed.pdb
+D:\SPro\sources\RSSFeed\RSSFeed\obj\Debug\RSSFeed.csprojResolveAssemblyReference.cache
+D:\SPro\sources\RSSFeed\RSSFeed\obj\Debug\RSSFeed.Form1.resources
+D:\SPro\sources\RSSFeed\RSSFeed\obj\Debug\RSSFeed.Properties.Resources.resources
+D:\SPro\sources\RSSFeed\RSSFeed\obj\Debug\RSSFeed.csproj.GenerateResource.Cache
+D:\SPro\sources\RSSFeed\RSSFeed\obj\Debug\RSSFeed.exe
+D:\SPro\sources\RSSFeed\RSSFeed\obj\Debug\RSSFeed.pdb
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\bin\Debug\RSSFeed.exe.config
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\bin\Debug\RSSFeed.exe
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\bin\Debug\RSSFeed.pdb
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.csprojAssemblyReference.cache
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.Form1.resources
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.Properties.Resources.resources
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.csproj.GenerateResource.cache
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.csproj.CoreCompileInputs.cache
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.exe
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.pdb
+D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.dll
+D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.pdb
+D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.xml
