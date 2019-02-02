@@ -20,3 +20,8 @@ C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.pdb
 D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.dll
 D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.pdb
 D:\SPro\sources\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.Form2.resources
+C:\Users\Mr X\source\repos\RSSFeed\RSSFeed\obj\Debug\RSSFeed.csproj.CopyComplete

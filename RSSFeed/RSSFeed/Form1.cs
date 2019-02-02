@@ -16,12 +16,14 @@ namespace RSSFeed
             InitializeComponent();
         }
 
+        #region Tanımlar
         public string url = string.Empty;
         public XmlReader reader;
         public SyndicationFeed feed;
         public bool kontrol = true;
         public static string title = string.Empty;
         public static string description = string.Empty;
+        #endregion
 
         #region HareketEtme
 
@@ -224,6 +226,17 @@ namespace RSSFeed
                     }
                 }
             }
+        }
+
+        private void kapatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void hakkındaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
         }
     }
 }

@@ -109,19 +109,21 @@
             this.kapatToolStripMenuItem,
             this.hakkındaToolStripMenuItem});
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(125, 48);
+            this.menu.Size = new System.Drawing.Size(181, 70);
             // 
             // kapatToolStripMenuItem
             // 
             this.kapatToolStripMenuItem.Name = "kapatToolStripMenuItem";
-            this.kapatToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.kapatToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.kapatToolStripMenuItem.Text = "Kapat";
+            this.kapatToolStripMenuItem.Click += new System.EventHandler(this.kapatToolStripMenuItem_Click);
             // 
             // hakkındaToolStripMenuItem
             // 
             this.hakkındaToolStripMenuItem.Name = "hakkındaToolStripMenuItem";
-            this.hakkındaToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.hakkındaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.hakkındaToolStripMenuItem.Text = "Hakkında";
+            this.hakkındaToolStripMenuItem.Click += new System.EventHandler(this.hakkındaToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
