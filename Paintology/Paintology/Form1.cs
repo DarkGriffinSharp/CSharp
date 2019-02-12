@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace Paintology
 {
@@ -16,9 +11,14 @@ namespace Paintology
         public Form1()
         {
             InitializeComponent();
+            listOfPoints = new ArrayList();
+            kalemx = false;
         }
         int pin = 0;
         int colorPickerPin = 0;
+        public Graphics g;
+        ArrayList listOfPoints;
+        bool kalemx;
 
         #region HareketEtme
 
@@ -42,8 +42,17 @@ namespace Paintology
         {
             if (e.Button == MouseButtons.Left && toolPanel.Dock == DockStyle.None)
             {
-                toolPanel.Left = e.X + toolPanel.Left - MouseDownLocation.X;
-                toolPanel.Top = e.Y + toolPanel.Top - MouseDownLocation.Y;
+                if (toolPanel.Location.X >= 0 && toolPanel.Location.Y >= 0)
+                {
+                    toolPanel.Left = e.X + toolPanel.Left - MouseDownLocation.X;
+
+                    toolPanel.Top = e.Y + toolPanel.Top - MouseDownLocation.Y;
+                }
+                else
+                {
+                    toolPanel.Location = new Point(0, 40);
+                    toolPanel.Dock = DockStyle.Left;
+                }
             }
         }
 
@@ -57,7 +66,8 @@ namespace Paintology
 
         private void colorPicker_MouseMove(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Left && colorPickerPin == 1)
+            if (e.Button == MouseButtons.Left && colorPickerPin == 1 &&
+                (colorPicker.Bounds.Width < this.Size.Width && colorPicker.Bounds.Height < this.Size.Height))
             {
                 colorPicker.Left = e.X + colorPicker.Left - MouseDownLocation1.X;
                 colorPicker.Top = e.Y + colorPicker.Top - MouseDownLocation1.Y;
@@ -178,9 +188,46 @@ namespace Paintology
         private void openFolder_Click(object sender, EventArgs e)
         {
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "image files (*.png)|*.png|" +
-                "image files (*.jpg)|*.jpg";
-            ofd.ShowDialog();
+            ofd.Title = "images file";
+            ofd.Filter = "*.png|*.png|" +
+                "*.jpg|*.jpg";
+
+            DialogResult dr = ofd.ShowDialog();
+            if (dr == DialogResult.OK)
+            {
+                Image bitMap = Image.FromFile(ofd.FileName);
+                BackgroundImageLayout = ImageLayout.Center;
+                BackgroundImage = bitMap;
+            }
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            Point p = new Point(e.X, e.Y);
+            listOfPoints.Add(p);
+            kalemx = true;
+            
+        }
+
+        private void Form1_MouseUp(object sender, MouseEventArgs e)
+        {
+            kalemx = false;
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            Graphics g = CreateGraphics();
+            Point points = new Point(e.X, e.Y);
+            Pen kalem = new Pen(Color.Black);
+
+            if (kalemx == true)
+            {
+                if (listOfPoints.Count > 1)
+                {
+                    g.DrawLine(kalem, (Point)listOfPoints[listOfPoints.Count - 1], points);
+                    listOfPoints.Add(points);
+                }
+            }
         }
     }
 }

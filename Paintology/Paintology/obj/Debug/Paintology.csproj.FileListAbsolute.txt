@@ -1,12 +1,3 @@
-D:\SPro\sources\Paintology\Paintology\bin\Debug\Paintology.exe.config
-D:\SPro\sources\Paintology\Paintology\bin\Debug\Paintology.exe
-D:\SPro\sources\Paintology\Paintology\bin\Debug\Paintology.pdb
-D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.csprojResolveAssemblyReference.cache
-D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.Form1.resources
-D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.Properties.Resources.resources
-D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.csproj.GenerateResource.Cache
-D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.exe
-D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.pdb
 C:\Users\Mr X\source\repos\Paintology\Paintology\bin\Debug\Paintology.exe.config
 C:\Users\Mr X\source\repos\Paintology\Paintology\bin\Debug\Paintology.exe
 C:\Users\Mr X\source\repos\Paintology\Paintology\bin\Debug\Paintology.pdb
@@ -17,3 +8,12 @@ C:\Users\Mr X\source\repos\Paintology\Paintology\obj\Debug\Paintology.csproj.Gen
 C:\Users\Mr X\source\repos\Paintology\Paintology\obj\Debug\Paintology.csproj.CoreCompileInputs.cache
 C:\Users\Mr X\source\repos\Paintology\Paintology\obj\Debug\Paintology.exe
 C:\Users\Mr X\source\repos\Paintology\Paintology\obj\Debug\Paintology.pdb
+D:\SPro\sources\Paintology\Paintology\bin\Debug\Paintology.exe.config
+D:\SPro\sources\Paintology\Paintology\bin\Debug\Paintology.exe
+D:\SPro\sources\Paintology\Paintology\bin\Debug\Paintology.pdb
+D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.csprojResolveAssemblyReference.cache
+D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.Form1.resources
+D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.Properties.Resources.resources
+D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.csproj.GenerateResource.Cache
+D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.exe
+D:\SPro\sources\Paintology\Paintology\obj\Debug\Paintology.pdb
