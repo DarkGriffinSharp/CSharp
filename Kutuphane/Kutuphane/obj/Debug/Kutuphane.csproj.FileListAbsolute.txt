@@ -1,0 +1,29 @@
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\bin\Debug\Kutuphane.exe.config
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\bin\Debug\Kutuphane.exe
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\bin\Debug\Kutuphane.pdb
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.csprojAssemblyReference.cache
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.Form1.resources
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.Properties.Resources.resources
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.csproj.GenerateResource.cache
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.csproj.CoreCompileInputs.cache
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.exe
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.pdb
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormKitapEkle.resources
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormYeniKayit.resources
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormAdresEkle.resources
+D:\2-Csaharp Tüm dökümanlar\smartpro302\smart-form\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormYazarEkle.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\bin\Debug\Kutuphane.exe.config
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\bin\Debug\Kutuphane.exe
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\bin\Debug\Kutuphane.pdb
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.csprojAssemblyReference.cache
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.Form1.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormAdresEkle.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormKitapEkle.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormYazarEkle.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.Properties.Resources.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.csproj.GenerateResource.cache
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.csproj.CoreCompileInputs.cache
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.exe
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.pdb
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormUyeDuzelt.resources
+C:\Users\Mr X\source\repos\Kutuphane\Kutuphane\obj\Debug\Kutuphane.FormUyeKayit.resources
